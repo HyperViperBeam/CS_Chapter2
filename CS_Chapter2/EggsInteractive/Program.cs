@@ -25,7 +25,7 @@ namespace EggsInteractive
             C4 = Convert.ToInt32(Chicken4);
 
             int total = C1 + C2 + C3 + C4;
-            Console.WriteLine("Dozen: " + (total / 12) + " Eggs: " + (total % 10));
+            Console.WriteLine("Dozen: " + (total / 12) + " Eggs: " + (total % 12));
         }
     }
 }

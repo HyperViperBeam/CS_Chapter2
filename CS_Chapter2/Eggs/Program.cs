@@ -15,7 +15,7 @@ namespace Eggs
             int Chicken4 = 999;
             int total = Chicken1 + Chicken2 + Chicken3 + Chicken4;
 
-            Console.WriteLine("Dozen: " + total / 12 + "eggs: " + total % 10);
+            Console.WriteLine("Dozen: " + total / 12 + "eggs: " + total % 12);
         }
     }
 }
